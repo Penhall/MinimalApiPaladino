@@ -7,7 +7,7 @@ internal static class ApplicationBuilderExtensions
     {
         if(environment.IsDevelopment())
         {
-           // app.UseDeveloperExceptionPage();
+            app.UseDeveloperExceptionPage();
         }
         return app;
     }
