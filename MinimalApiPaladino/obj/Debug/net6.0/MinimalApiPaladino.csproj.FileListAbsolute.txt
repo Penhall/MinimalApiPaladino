@@ -5,9 +5,11 @@ D:\Projetos\MinimalApiPaladino\MinimalApiPaladino\bin\Debug\net6.0\MinimalApiPal
 D:\Projetos\MinimalApiPaladino\MinimalApiPaladino\bin\Debug\net6.0\MinimalApiPaladino.runtimeconfig.json
 D:\Projetos\MinimalApiPaladino\MinimalApiPaladino\bin\Debug\net6.0\MinimalApiPaladino.dll
 D:\Projetos\MinimalApiPaladino\MinimalApiPaladino\bin\Debug\net6.0\MinimalApiPaladino.pdb
+D:\Projetos\MinimalApiPaladino\MinimalApiPaladino\bin\Debug\net6.0\Humanizer.dll
 D:\Projetos\MinimalApiPaladino\MinimalApiPaladino\bin\Debug\net6.0\Microsoft.Data.Sqlite.dll
 D:\Projetos\MinimalApiPaladino\MinimalApiPaladino\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
 D:\Projetos\MinimalApiPaladino\MinimalApiPaladino\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Projetos\MinimalApiPaladino\MinimalApiPaladino\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
 D:\Projetos\MinimalApiPaladino\MinimalApiPaladino\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
 D:\Projetos\MinimalApiPaladino\MinimalApiPaladino\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Sqlite.dll
 D:\Projetos\MinimalApiPaladino\MinimalApiPaladino\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
@@ -22,12 +24,14 @@ D:\Projetos\MinimalApiPaladino\MinimalApiPaladino\bin\Debug\net6.0\Microsoft.Ext
 D:\Projetos\MinimalApiPaladino\MinimalApiPaladino\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
 D:\Projetos\MinimalApiPaladino\MinimalApiPaladino\bin\Debug\net6.0\Microsoft.OpenApi.dll
 D:\Projetos\MinimalApiPaladino\MinimalApiPaladino\bin\Debug\net6.0\MiniValidation.dll
+D:\Projetos\MinimalApiPaladino\MinimalApiPaladino\bin\Debug\net6.0\Mono.TextTemplating.dll
 D:\Projetos\MinimalApiPaladino\MinimalApiPaladino\bin\Debug\net6.0\SQLitePCLRaw.batteries_v2.dll
 D:\Projetos\MinimalApiPaladino\MinimalApiPaladino\bin\Debug\net6.0\SQLitePCLRaw.core.dll
 D:\Projetos\MinimalApiPaladino\MinimalApiPaladino\bin\Debug\net6.0\SQLitePCLRaw.provider.e_sqlite3.dll
 D:\Projetos\MinimalApiPaladino\MinimalApiPaladino\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
 D:\Projetos\MinimalApiPaladino\MinimalApiPaladino\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\Projetos\MinimalApiPaladino\MinimalApiPaladino\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Projetos\MinimalApiPaladino\MinimalApiPaladino\bin\Debug\net6.0\System.CodeDom.dll
 D:\Projetos\MinimalApiPaladino\MinimalApiPaladino\bin\Debug\net6.0\System.Text.Encodings.Web.dll
 D:\Projetos\MinimalApiPaladino\MinimalApiPaladino\bin\Debug\net6.0\System.Text.Json.dll
 D:\Projetos\MinimalApiPaladino\MinimalApiPaladino\bin\Debug\net6.0\runtimes\alpine-arm\native\libe_sqlite3.so
@@ -75,7 +79,3 @@ D:\Projetos\MinimalApiPaladino\MinimalApiPaladino\obj\Debug\net6.0\refint\Minima
 D:\Projetos\MinimalApiPaladino\MinimalApiPaladino\obj\Debug\net6.0\MinimalApiPaladino.pdb
 D:\Projetos\MinimalApiPaladino\MinimalApiPaladino\obj\Debug\net6.0\MinimalApiPaladino.genruntimeconfig.cache
 D:\Projetos\MinimalApiPaladino\MinimalApiPaladino\obj\Debug\net6.0\ref\MinimalApiPaladino.dll
-D:\Projetos\MinimalApiPaladino\MinimalApiPaladino\bin\Debug\net6.0\Humanizer.dll
-D:\Projetos\MinimalApiPaladino\MinimalApiPaladino\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
-D:\Projetos\MinimalApiPaladino\MinimalApiPaladino\bin\Debug\net6.0\Mono.TextTemplating.dll
-D:\Projetos\MinimalApiPaladino\MinimalApiPaladino\bin\Debug\net6.0\System.CodeDom.dll
