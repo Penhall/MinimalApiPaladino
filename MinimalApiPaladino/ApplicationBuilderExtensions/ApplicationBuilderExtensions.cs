@@ -5,7 +5,7 @@ internal static class ApplicationBuilderExtensions
 {
     public static IApplicationBuilder UseExceptionHandling(this IApplicationBuilder app, IWebHostEnvironment environment)
     {
-        if(environment.IsDevelopment())
+        if (environment.IsDevelopment())
         {
             app.UseDeveloperExceptionPage();
         }
@@ -26,7 +26,11 @@ internal static class ApplicationBuilderExtensions
     public static IApplicationBuilder UseSwaggerEndpoints(this IApplicationBuilder app)
     {
         app.UseSwagger();
-        app.UseSwaggerUI(c => { });
+        app.UseSwaggerUI(c =>
+        {
+
+            c.SwaggerEndpoint("/swagger/v1/swagger.json", "Paladino API V1");
+        });
 
         return app;
     }
