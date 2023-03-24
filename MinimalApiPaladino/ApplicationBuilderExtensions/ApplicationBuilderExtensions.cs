@@ -29,7 +29,7 @@ internal static class ApplicationBuilderExtensions
         app.UseSwaggerUI(c =>
         {
 
-            //c.SwaggerEndpoint("/swagger/v1/swagger.json", "Paladino API V3");
+            c.SwaggerEndpoint("/swagger/v1/swagger.json", "Paladino API V3");
         });
 
         return app;
