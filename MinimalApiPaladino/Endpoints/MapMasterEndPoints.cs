@@ -209,32 +209,7 @@ public static class MapMasterEndPoints
 
         #endregion
 
-
-        //#region Get Lista de Master Por Campo
-
-        //app.MapGet("/master/Campo/{Campo}", async (
-
-        //    PaladinoDbContext context,
-        //    string search) =>
-
-        //     await context.Masters
-        //        .Where(m => string.IsNullOrEmpty(search)
-        //            || m.Dominio.Contains(search)
-        //            || m.Responsavel.Contains(search)
-        //            || m.Curatelado.Contains(search)
-        //            || m.Oficio.Contains(search))
-        //        .ToListAsync()
-        //            is List<Master> master && master.Any()
-        //                ? Results.Ok(master)
-        //                : Results.NotFound())
-
-        //  .Produces<Master>(StatusCodes.Status200OK)
-        //  .Produces(StatusCodes.Status404NotFound)
-        //  .WithName("GetListaMasterPorCampo")
-        //  .WithTags("Master");
-
-        //#endregion
-
+               
         #region Inclui Master
 
         app.MapPost("/master", async (
@@ -263,7 +238,7 @@ public static class MapMasterEndPoints
             #region Atualiza Master Por Id
 
             app.MapPut("/master/{id}",  async (
-                   Guid id,
+                   int id,
                    PaladinoDbContext context,
                    Master master) =>
             {
@@ -291,7 +266,7 @@ public static class MapMasterEndPoints
             #region Deleta Master
 
             app.MapDelete("/master/{id}",  async (
-                    Guid id,
+                    int id,
                     PaladinoDbContext context) =>
             {
                 var master = await context.Masters.FindAsync(id);
