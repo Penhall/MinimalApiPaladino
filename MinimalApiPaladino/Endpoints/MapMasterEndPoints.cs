@@ -245,10 +245,13 @@ public static class MapMasterEndPoints
                 var masterBanco = await context.Masters.FindAsync(id);
                 if (masterBanco == null) return Results.NotFound();
 
-                if (!MiniValidator.TryValidate(master, out var errors))
+                masterBanco.Atualiza(master);
+                
+
+                if (!MiniValidator.TryValidate(masterBanco, out var errors))
                     return Results.ValidationProblem(errors);
 
-                context.Masters.Update(master);
+                context.Masters.Update(masterBanco);
                 var result = await context.SaveChangesAsync();
 
                 return result > 0
@@ -282,7 +285,6 @@ public static class MapMasterEndPoints
             }).Produces(StatusCodes.Status400BadRequest)
                 .Produces(StatusCodes.Status204NoContent)
                 .Produces(StatusCodes.Status404NotFound)
-                .RequireAuthorization("ExcluirMaster")
                 .WithName("DeleteMaster")
                 .WithTags("Master");
 
